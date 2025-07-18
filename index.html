@@ -1,23 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <title>Studio Alex | Design Digital Criativo e Estratégico</title>
-    <meta name="description" content="Studio Alex é um estúdio independente especializado em design digital. Projetos criativos para marcas, produtos e experiências visuais impactantes.">
-    <meta name="keywords" content="design digital, Studio Alex, portfólio de design, identidade visual, branding, web design" />
+    <meta
+      name="description"
+      content="Studio Alex é um estúdio independente especializado em design digital. Projetos criativos para marcas, produtos e experiências visuais impactantes."
+    />
+    <meta
+      name="keywords"
+      content="design digital, Studio Alex, portfólio de design, identidade visual, web design, branding"
+    />
 
     <link rel="stylesheet" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
-      <!-- ... menu original mantido ... -->
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/john-doe.png"
+              alt="Logo Studio Alex"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Studio Alex</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper"><a href="./index.html" class="header__link">Home</a></li>
+            <li class="header__link-wrapper"><a href="./index.html#about" class="header__link">Sobre</a></li>
+            <li class="header__link-wrapper"><a href="./index.html#projects" class="header__link">Projetos</a></li>
+            <li class="header__link-wrapper"><a href="./index.html#contact" class="header__link">Contato</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <section class="home-hero">
@@ -29,10 +57,31 @@
           </p>
         </div>
         <div class="home-hero__cta">
-          <a href="./#projects" class="btn btn--bg">Ver Projetos</a>
+          <a href="./#projects" class="btn btn--bg">Projetos</a>
         </div>
       </div>
-      <!-- ... ícones sociais e scroll ... -->
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/alexmkt2/" target="_blank" class="home-hero__social-icon-link">
+            <img src="./assets/png/linkedin-ico.png" alt="LinkedIn Studio Alex" class="home-hero__social-icon" />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://www.instagram.com/studioal2025/" target="_blank" class="home-hero__social-icon-link">
+            <img src="./assets/png/insta-ico.png" alt="Instagram Studio Alex" class="home-hero__social-icon" />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://www.facebook.com/studioal2025" target="_blank" class="home-hero__social-icon-link">
+            <img src="./assets/png/facebook-ico.png" alt="Facebook Studio Alex" class="home-hero__social-icon" />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://br.pinterest.com/estudioalex/" target="_blank" class="home-hero__social-icon-link">
+            <img src="./assets/png/pinterest-ico.png" alt="Pinterest Studio Alex" class="home-hero__social-icon" />
+          </a>
+        </div>
+      </div>
     </section>
 
     <section id="about" class="about sec-pad">
@@ -45,23 +94,60 @@
         </h2>
         <div class="about__content">
           <div class="about__content-main">
-            <h3 class="about__content-title">Nosso Processo</h3>
+            <h3 class="about__content-title">Quem somos</h3>
             <div class="about__content-details">
               <p class="about__content-details-para">
-                O Studio Alex cria soluções em design digital para marcas e produtos. De interfaces web a identidade visual, trabalhamos com propósito, impacto e originalidade.
+                O Studio Alex é especializado em <strong>design digital</strong>, identidade visual e experiências gráficas. Colaboramos com marcas, startups e projetos autorais para criar soluções visuais impactantes.
               </p>
               <p class="about__content-details-para">
-                Estamos sempre explorando novas linguagens visuais e criando experiências que conectam pessoas com ideias. Fale conosco e transforme seu projeto em imagem e estratégia.
+                Atuamos como estúdio independente, explorando liberdade criativa com visão estratégica. Estamos sempre abertos a novas colaborações.
               </p>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Fale Conosco</a>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contato</a>
           </div>
-          <!-- ... skills mantidas ... -->
         </div>
       </div>
     </section>
 
-    <!-- Seção de Projetos e Contato mantida, você pode alterar os nomes dos projetos e descrições para refletirem seus cases reais -->
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projetos</span>
+          <span class="heading-sec__sub">
+            Uma seleção de projetos de design digital realizados pelo Studio Alex — de identidade visual a interfaces e campanhas publicitárias.
+          </span>
+        </h2>
+        <!-- Seus projetos aqui -->
+      </div>
+    </section>
+
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contato</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Vamos conversar sobre design? Preencha o formulário e entraremos em contato.
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="#" class="contact__form">
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-label">Nome</label>
+              <input required placeholder="Seu nome" type="text" name="name" id="name" class="contact__form-input" />
+            </div>
+            <div class="contact__form-field">
+              <label for="email" class="contact__form-label">E-mail</label>
+              <input required placeholder="Seu e-mail" type="email" name="email" id="email" class="contact__form-input" />
+            </div>
+            <div class="contact__form-field">
+              <label for="message" class="contact__form-label">Mensagem</label>
+              <textarea required placeholder="Sua mensagem" name="message" id="message" class="contact__form-input" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
     <footer class="main-footer">
       <div class="main-container">
@@ -71,7 +157,18 @@
               <span>Redes Sociais</span>
             </h2>
             <div class="main-footer__social-cont">
-              <!-- ... ícones mantidos ... -->
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/alexmkt2/">
+                <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="LinkedIn Studio Alex" />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/studioal2025/">
+                <img class="main-footer__icon" src="./assets/png/insta-ico.png" alt="Instagram Studio Alex" />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/studioal2025">
+                <img class="main-footer__icon" src="./assets/png/facebook-ico.png" alt="Facebook Studio Alex" />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://br.pinterest.com/estudioalex/">
+                <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/pinterest-ico.png" alt="Pinterest Studio Alex" />
+              </a>
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
